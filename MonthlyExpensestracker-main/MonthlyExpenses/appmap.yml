@@ -1,0 +1,5 @@
+name: "MonthlyExpenses"
+appmap_dir: "tmp/appmap"
+packages:
+- path: "com.ecentum.MonthlyExpenses"
+- path: "templates"

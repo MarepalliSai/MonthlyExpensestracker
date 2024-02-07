@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Expenses Found</title>
+    <style>img{
+    width:50%
+    div{
+    align: center
+
+    }
+    }</style>
+</head>
+<body>
+<h1>No Expenses Found</h1>
+</br>
+<div class="image-container" align="center" width="800" height="1000">
+    <img src="https://tse4.mm.bing.net/th?id=OIP.jovGaQGhNiQH7uBajkeJVAAAAA&pid=Api&P=0&h=180">
+</div>
+</br>
+<div class="small-text-container" align="center">
+    <i><small><h2>There are no expenses for the specified filter applied</h2></small></i>
+</div>
+</br>
+<div class="button-container" align="center">
+    <a th:href="@{/expenses}">
+        <button class="btn btn-primary">Go to Expenses</button>
+    </a>
+</div>
+</body>
+</html>
